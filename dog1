@@ -1,0 +1,21 @@
+#!/usr/bin/python2
+
+import cv2
+
+#laoding imag
+img=cv2.imread('dog1img.jpeg')
+
+# print height and wedth
+print img.shape
+print img
+
+# to display that  image
+cv2.imshow("Display window",img)
+
+#iamge window holder actiavte
+cv2.waitKey(0)
+
+#waitkey wwill distroy by using q button
+cv2.destroyAllWindows()
+
+
